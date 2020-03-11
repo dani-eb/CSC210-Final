@@ -1,0 +1,57 @@
+html{
+    background-color: azure;
+}
+a{
+    padding: 1.5%;
+    border: 2px solid white;
+    background-color: #02C39A;
+    width: 20%;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    background-color: #00A896;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#image1{
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    color: #05668D;
+}
+#logo{
+    margin-top: 10%;
+    height: 50px;
+}
+#specsTable{
+    border-style: groove;
+    margin: 5px;
+}
+td{
+    border-style: dotted;
+    border-bottom: none;
+    padding: 5px;
+}
+#leftData{
+    border-left: none;
+}
+.bottom{
+    border-bottom: dotted;
+}
+#row:hover{
+    background-color: #028090;
+    color: white;
+}
