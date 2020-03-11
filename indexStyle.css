@@ -1,5 +1,6 @@
 html{
     background-color: azure;
+    padding: 8px;
 }
 a{
     padding: 1.5%;
@@ -54,4 +55,19 @@ td{
 #row:hover{
     background-color: #028090;
     color: white;
+}
+#quoteImg{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#quoteBackground{
+    text-align: center;
+}
+#quoteTitle{
+    font-size: 25px;
+}
+#dailyQuote{
+    font-size: 18px;
 }

@@ -2,6 +2,7 @@ var canvas = document.getElementById("canvas");
 
 var context = canvas.getContext("2d");
 
+<<<<<<< HEAD
 function drawLine(context, beignX, beginY, endX, endY){
     context.save();
     context.beginPath();
@@ -38,3 +39,13 @@ writeWords(context, "Thing3", 310, 195);
 writeWords(context, "Thing4", 410, 145);
 writeWords(context, "X Axis", 262.5, 495);
 writeWords(context, "Y Axis", 25, 250);
+=======
+function drawline(context, start){
+
+}
+
+
+var barChart = function(){
+
+}
+>>>>>>> 7b568fa382dbbe42e20eeca8a31675f73a968d2e
